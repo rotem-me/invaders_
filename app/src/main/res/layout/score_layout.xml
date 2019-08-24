@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#230A2E"
+    android:paddingTop="20dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scoreBoardTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreBoard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/lightGreen"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:fontFamily="@font/rockout"
+        android:textAllCaps="false"/>
+    <View
+        style="@style/Divider" android:layout_below="@id/scoreBoardTv"/>
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:layout_margin="10dp"
+        android:layout_below="@id/scoreBoardTv"
+        android:minWidth="0dp"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>

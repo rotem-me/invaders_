@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/darkPurple"
+    android:padding="20sp">
+    <TextView
+        android:id="@+id/gameOverTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameOver"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/lightGreen"
+        android:textSize="25sp"
+        android:fontFamily="@font/rockout"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/startOverBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startOver"
+        android:layout_below="@id/gameOverTv"
+        android:background="@drawable/btn2"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:fontFamily="@font/rockout"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/quitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:layout_below="@id/startOverBtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn2"
+        android:textSize="15sp"
+        android:fontFamily="@font/rockout"/>
+
+</RelativeLayout>

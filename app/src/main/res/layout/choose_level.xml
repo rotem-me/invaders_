@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="@color/darkPurple"
+    android:padding="15dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/levelLayout1"
+        android:background="@drawable/btn2"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level1"
+            android:textSize="20sp"
+            android:fontFamily="@font/rockout"
+            android:textColor="@color/lightGreen"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_padlock_unlock"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:id="@+id/levelLayout2"
+        android:background="@drawable/btn2"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level2"
+            android:textSize="20sp"
+            android:fontFamily="@font/rockout"
+            android:textColor="@color/lightGreen"/>
+        <ImageView
+            android:id="@+id/levelLock2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_padlock"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:id="@+id/levelLayout3"
+        android:background="@drawable/btn2"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level3"
+            android:textSize="20sp"
+            android:fontFamily="@font/rockout"
+            android:textColor="@color/lightGreen"/>
+        <ImageView
+            android:id="@+id/levelLock3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_padlock"/>
+    </RelativeLayout>
+
+</LinearLayout>

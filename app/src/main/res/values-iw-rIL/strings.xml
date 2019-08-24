@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="howToPlayTv">" מטרת המשחק היא לירות על הפולשים עם הטילים שיש לך (ע\"י לחיצה על סמל השחקן) תוך כדי הימנעות מהיריות שלהם ( ע\"י הזזת השחקן על המסך) ומניעת השתלטותם של הפולשים. השגת מספר גבוה של נקודות יסייע לך להתקרב לניצחון במשחק. כל משחק מתחיל עם לפחות 3 שורות של פולשים. כל פולש יזכה אותך ב15 נקודות, מטבע זהב יזכה אות ב10 נקודות, ומטבע כסף יזכה אותך ב5 נקודות."</string>
+    <string name="app_name">הפולשים</string>
+    <string name="play">שחק</string>
+    <string name="scoreBoard">לוח שיאים</string>
+    <string name="theme">נושא</string>
+    <string name="howToPlay">איך משחקים</string>
+    <string name="gameGuide">מדריך המשחק</string>
+    <string name="gotIt">הבנתי!</string>
+    <string name="level1">שלב 1</string>
+    <string name="level2">שלב 2</string>
+    <string name="level3">"שלב 3 "</string>
+    <string name="points">"נקודות : "</string>
+    <string name="set">בחר</string>
+    <string name="enemy">אויב :</string>
+    <string name="player">שחקן :</string>
+    <string name="background">"רקע : "</string>
+    <string name="youWon">זכית!</string>
+    <string name="name">"שם : "</string>
+    <string name="score">"ניקוד : "</string>
+    <string name="saveScore">שמור ניקוד</string>
+    <string name="dontSaveScore">אל תשמור ניקוד</string>
+    <string name="nextLevel">שלב הבא</string>
+    <string name="quit">צא</string>
+    <string name="gameOver">המשחק נגמר :(</string>
+    <string name="startOver">התחל מחדש</string>
+</resources>

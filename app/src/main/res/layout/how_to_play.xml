@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/darkPurple"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/howToPlayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameGuide"
+        android:gravity="center"
+        android:textColor="@color/lightGreen"
+        android:fontFamily="@font/rockout"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"/>
+    <View
+        android:id="@+id/howToPlayDivider"
+        style="@style/Divider"
+        android:layout_below="@id/howToPlayTitle"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/howToPlayTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/howToPlayDivider"
+        android:textColor="#FFF"
+        android:text="@string/howToPlayTv"
+        android:layout_marginBottom="25dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/gotItBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gotIt"
+        android:layout_below="@id/howToPlayTv"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/rockout"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"/>
+</RelativeLayout>

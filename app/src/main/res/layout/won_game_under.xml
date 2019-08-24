@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkPurple"
+    android:padding="20dp">
+    <View style="@style/Divider" android:id="@+id/under_divider"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/nextLevelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nextLevel"
+        android:fontFamily="@font/rockout"
+        android:background="@drawable/btn2"
+        android:layout_below="@id/under_divider"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/lightGreen"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/scoreBoardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextLevelBtn"
+        android:text="@string/scoreBoard"
+        android:fontFamily="@font/rockout"
+        android:background="@drawable/btn2"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/lightGreen"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/quitBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreBoardBtn"
+        android:text="@string/quit"
+        android:fontFamily="@font/rockout"
+        android:background="@drawable/btn2"
+        android:textStyle="bold"
+        android:textColor="@color/lightGreen"
+        android:textSize="20sp"/>
+    <View
+        style="@style/Divider"
+        android:layout_below="@id/quitBtn2"
+        android:layout_margin="5dp"/>
+
+</RelativeLayout>

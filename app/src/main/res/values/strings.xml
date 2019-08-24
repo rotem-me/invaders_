@@ -1,0 +1,27 @@
+<resources>
+    <string name="howToPlayTv">"The object of the game is to shoot the invaders with your rocket base (by pressing your player icon) while avoiding their shots( by moving your player on the screen) and preventing an invasion. Amassing a high score  will help you get closer to the win. Each game screen starts with atleast 3 rows of invaders. Every invaders score 15 points, golden coins score 10 points , and silver coins score 5 points. "</string>
+    <string name="app_name">My Invaders</string>
+    <string name="play">Play</string>
+    <string name="theme">Theme</string>
+    <string name="howToPlay">How to play</string>
+    <string name="scoreBoard">Score board</string>
+    <string name="gameGuide">Game guide</string>
+    <string name="gotIt">Got it!</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="points">"Points : "</string>
+    <string name="player">Player :</string>
+    <string name="enemy">Enemy :</string>
+    <string name="background">Background :</string>
+    <string name="set">Set</string>
+    <string name="youWon">You won!</string>
+    <string name="name">Name :</string>
+    <string name="score">Score :</string>
+    <string name="saveScore">Save score</string>
+    <string name="dontSaveScore">Dont save score</string>
+    <string name="nextLevel">Next level</string>
+    <string name="quit">quit</string>
+    <string name="gameOver">Game over :(</string>
+    <string name="startOver">Start over</string>
+</resources>
