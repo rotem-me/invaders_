@@ -1,3 +1,3 @@
 # invaders_
 Space invaders for android,
-Hope some would find it helpful.
+hope some would find it helpful.
